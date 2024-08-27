@@ -15,20 +15,35 @@
     />
     <title>SEO Master</title>
   </head>
-  <body>
-    <div class="container">
+
+
+<style>
+  
+/* For Mobile devices: --------------------------------------- 320px-480px
+For Tablets or iPad: ----------------------------------------- 480px - 768px
+For Laptop or small-size screen: ----------------------------- 768px -1024px
+For Desktop or large-size screen: ---------------------------- 1024px -1200px
+For Extra-large size device: 1200px and more */
+
+
+
+
+</style>
+<body>
+    <div class="container" style="overflow: auto; height: 100vh;">
+      <!-- Navbar -->
       <section aria-label="navbar">
         <nav class="navbar-container">
-          <div>
+          <div class="logo">
             <img src="./assets/Logo.png" alt="brand-logo" />
           </div>
           <div class="grow-list">
             <ul class="list">
-              <li class="list-item">Home</li>
-              <li class="list-item">About</li>
-              <li class="list-item">Services</li>
-              <li class="list-item">Portfolio</li>
-              <li class="list-item">Pricing</li>
+              <li class="list-item"><a href="#">Home</a></li>
+              <li class="list-item"><a href="#">About</a></li>
+              <li class="list-item"><a href="#">Services</a></li>
+              <li class="list-item"><a href="#">Portfolio</a></li>
+              <li class="list-item"><a href="#">Pricing</a></li>
             </ul>
           </div>
           <div class="button-group">
@@ -36,13 +51,14 @@
           </div>
         </nav>
       </section>
+
       <!-- Banner -->
       <section aria-label="banner">
         <div class="banner-container">
           <!-- Left text -->
-          <div>
+          <div class="main-text">
             <h1 class="heading-text">
-              We Help You <span>Crush</span> Your Competition
+              We Help You <span style="color:navy;">Crush</span> Your Competition
             </h1>
             <p class="description">
               Build trust to connect your brand to billions of users and grow
@@ -50,8 +66,9 @@
             </p>
             <button class="nav-button btn">See our services</button>
           </div>
+
           <!-- Right Text -->
-          <div>
+          <div class="main-banner">
             <img src="./assets/Header Illustration.png" alt="illustration" />
           </div>
         </div>
